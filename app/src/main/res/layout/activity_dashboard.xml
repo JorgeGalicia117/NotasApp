@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".DashboardActivity">
+
+    <TextView
+        android:id="@+id/tv_bienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        tools:text="Bienvenido, Jorge" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="48dp"
+        android:gravity="center"
+        android:text="¿Qué quieres hacer hoy?"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_crear_nota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Crear nota" />
+
+    <Button
+        android:id="@+id/btn_ver_notas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Ver mis notas" />
+
+    <Button
+        android:id="@+id/btn_cerrar_sesion"
+        style="?android:attr/borderlessButtonStyle"
+        android:textColor="#6750A4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión" />
+
+</LinearLayout>
